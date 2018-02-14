@@ -1,0 +1,179 @@
+/*CSS reset*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 100%;
+  }
+.namecard {
+    max-height: 100vh;
+    color: #fff;
+}
+
+/*Position elements*/
+
+.head {
+    height: 40vh;
+    width: 100%;
+    text-align: center;
+    position: relative;
+}
+
+.headline {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.content {
+    height: 60vh;
+    width: 100%;
+    position: relative;
+    text-align: center;
+    background: url(backgroundcontent.jpeg) no-repeat center;
+    background-size: cover;
+}
+
+.info {
+   height: 60%;
+   position: relative;
+   color: #000;
+}
+
+.infotext {
+    padding: 10% 5% 0% 5%;
+}
+
+.infotext p {
+    padding: 5% 5%;
+    text-align: justify;
+}
+
+.contact {
+    height: 40%;
+
+}
+
+/*Csilli*/
+
+.head {
+    background: url(namecard.jpg) no-repeat center;
+    background-size: cover;
+}
+
+.head h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem;
+}
+
+.headline h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+}
+
+.headline p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+}
+
+.info h1 {
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 1.4rem;
+
+}
+
+.info p {
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 0.8rem;
+    font-weight: bold;
+   
+}
+
+li {
+   padding: 0 20%;
+   text-align: left;
+}
+
+a {
+  text-decoration: none;
+}
+
+.facebook {
+    text-align: center;
+}
+
+.contact {
+    color: #000;
+    font-family: 'Roboto', sans-serif;
+}
+
+.contact-text {
+    bottom: 0;
+}
+
+@media (min-width: 480px) {
+    
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-size: 100%;
+      }
+
+    
+    .namecard {
+          max-width: 100vw;
+          max-height: 100vh;
+          border: 0;
+    }
+
+    .head {
+        height: 100vh;
+        width: 40vw;
+        top: 0;
+        position: fixed;
+    }
+
+    .headline {
+        bottom: 20px;
+    }
+
+    .content {
+        height: 100vh;
+        width: 60vw;
+        float: right;
+        position: relative;
+    }
+
+
+    li {
+        list-style-type: none;
+       
+        padding: 0 20%;
+        text-align: center;
+         
+    }
+
+    .info p {
+        font-family: 'Shadows Into Light', cursive;
+        font-size: 1rem;
+        font-weight: bold;
+        padding: 5% 20% 0 20%;
+       
+    }
+
+    .infotext {
+        margin-top: 10%;
+    }
+
+    .contact {
+        height: 20vh;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+    }
+}
+
+
+
